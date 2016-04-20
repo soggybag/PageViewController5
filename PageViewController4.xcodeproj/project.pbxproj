@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B1001351B9D3651002B6CF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1001341B9D3651002B6CF7 /* AppDelegate.swift */; };
+		7B1001381B9D3651002B6CF7 /* PageViewController4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B1001361B9D3651002B6CF7 /* PageViewController4.xcdatamodeld */; };
+		7B10013A1B9D3651002B6CF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1001391B9D3651002B6CF7 /* ViewController.swift */; };
+		7B10013D1B9D3651002B6CF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B10013B1B9D3651002B6CF7 /* Main.storyboard */; };
+		7B10013F1B9D3651002B6CF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B10013E1B9D3651002B6CF7 /* Images.xcassets */; };
+		7B1001421B9D3651002B6CF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B1001401B9D3651002B6CF7 /* LaunchScreen.xib */; };
+		7B10014E1B9D3651002B6CF7 /* PageViewController4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B10014D1B9D3651002B6CF7 /* PageViewController4Tests.swift */; };
+		7B10016E1B9D3821002B6CF7 /* flower-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B10016A1B9D3821002B6CF7 /* flower-1.png */; };
+		7B10016F1B9D3821002B6CF7 /* flower-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B10016B1B9D3821002B6CF7 /* flower-2.png */; };
+		7B1001701B9D3821002B6CF7 /* flower-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B10016C1B9D3821002B6CF7 /* flower-3.png */; };
+		7B1001711B9D3821002B6CF7 /* flower-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B10016D1B9D3821002B6CF7 /* flower-4.png */; };
+		7B101D411C1F3E4900FC6BCF /* LastPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B101D401C1F3E4900FC6BCF /* LastPageViewController.swift */; };
+		7B101D461C20947000FC6BCF /* step-well-in-Ahmedabad-India.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B101D421C20947000FC6BCF /* step-well-in-Ahmedabad-India.jpg */; };
+		7B101D471C20947000FC6BCF /* 001_kolodec.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B101D431C20947000FC6BCF /* 001_kolodec.jpg */; };
+		7B101D481C20947000FC6BCF /* chand-baori-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B101D441C20947000FC6BCF /* chand-baori-12.jpg */; };
+		7B101D491C20947000FC6BCF /* stepwells-india-031.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B101D451C20947000FC6BCF /* stepwells-india-031.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B1001481B9D3651002B6CF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B1001271B9D3651002B6CF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B10012E1B9D3651002B6CF7;
+			remoteInfo = PageViewController4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B10012F1B9D3651002B6CF7 /* PageViewController4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageViewController4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1001331B9D3651002B6CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B1001341B9D3651002B6CF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B1001371B9D3651002B6CF7 /* PageViewController4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PageViewController4.xcdatamodel; sourceTree = "<group>"; };
+		7B1001391B9D3651002B6CF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B10013C1B9D3651002B6CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B10013E1B9D3651002B6CF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B1001411B9D3651002B6CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7B1001471B9D3651002B6CF7 /* PageViewController4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewController4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B10014C1B9D3651002B6CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B10014D1B9D3651002B6CF7 /* PageViewController4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController4Tests.swift; sourceTree = "<group>"; };
+		7B10016A1B9D3821002B6CF7 /* flower-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flower-1.png"; sourceTree = "<group>"; };
+		7B10016B1B9D3821002B6CF7 /* flower-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flower-2.png"; sourceTree = "<group>"; };
+		7B10016C1B9D3821002B6CF7 /* flower-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flower-3.png"; sourceTree = "<group>"; };
+		7B10016D1B9D3821002B6CF7 /* flower-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flower-4.png"; sourceTree = "<group>"; };
+		7B101D401C1F3E4900FC6BCF /* LastPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastPageViewController.swift; sourceTree = "<group>"; };
+		7B101D421C20947000FC6BCF /* step-well-in-Ahmedabad-India.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "step-well-in-Ahmedabad-India.jpg"; sourceTree = "<group>"; };
+		7B101D431C20947000FC6BCF /* 001_kolodec.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001_kolodec.jpg; sourceTree = "<group>"; };
+		7B101D441C20947000FC6BCF /* chand-baori-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chand-baori-12.jpg"; sourceTree = "<group>"; };
+		7B101D451C20947000FC6BCF /* stepwells-india-031.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stepwells-india-031.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B10012C1B9D3651002B6CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B1001441B9D3651002B6CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B1001261B9D3651002B6CF7 = {
+			isa = PBXGroup;
+			children = (
+				7B1001311B9D3651002B6CF7 /* PageViewController4 */,
+				7B10014A1B9D3651002B6CF7 /* PageViewController4Tests */,
+				7B1001301B9D3651002B6CF7 /* Products */,
+				7B101D421C20947000FC6BCF /* step-well-in-Ahmedabad-India.jpg */,
+				7B101D431C20947000FC6BCF /* 001_kolodec.jpg */,
+				7B101D441C20947000FC6BCF /* chand-baori-12.jpg */,
+				7B101D451C20947000FC6BCF /* stepwells-india-031.jpg */,
+			);
+			sourceTree = "<group>";
+		};
+		7B1001301B9D3651002B6CF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B10012F1B9D3651002B6CF7 /* PageViewController4.app */,
+				7B1001471B9D3651002B6CF7 /* PageViewController4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B1001311B9D3651002B6CF7 /* PageViewController4 */ = {
+			isa = PBXGroup;
+			children = (
+				7B1001341B9D3651002B6CF7 /* AppDelegate.swift */,
+				7B1001391B9D3651002B6CF7 /* ViewController.swift */,
+				7B101D401C1F3E4900FC6BCF /* LastPageViewController.swift */,
+				7B10013B1B9D3651002B6CF7 /* Main.storyboard */,
+				7B10013E1B9D3651002B6CF7 /* Images.xcassets */,
+				7B1001401B9D3651002B6CF7 /* LaunchScreen.xib */,
+				7B1001361B9D3651002B6CF7 /* PageViewController4.xcdatamodeld */,
+				7B10015D1B9D37F3002B6CF7 /* Images */,
+				7B1001321B9D3651002B6CF7 /* Supporting Files */,
+			);
+			path = PageViewController4;
+			sourceTree = "<group>";
+		};
+		7B1001321B9D3651002B6CF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B1001331B9D3651002B6CF7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B10014A1B9D3651002B6CF7 /* PageViewController4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7B10014D1B9D3651002B6CF7 /* PageViewController4Tests.swift */,
+				7B10014B1B9D3651002B6CF7 /* Supporting Files */,
+			);
+			path = PageViewController4Tests;
+			sourceTree = "<group>";
+		};
+		7B10014B1B9D3651002B6CF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B10014C1B9D3651002B6CF7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B10015D1B9D37F3002B6CF7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7B10016A1B9D3821002B6CF7 /* flower-1.png */,
+				7B10016B1B9D3821002B6CF7 /* flower-2.png */,
+				7B10016C1B9D3821002B6CF7 /* flower-3.png */,
+				7B10016D1B9D3821002B6CF7 /* flower-4.png */,
+			);
+			name = Images;
+			path = ../PageViewController4.xcodeproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B10012E1B9D3651002B6CF7 /* PageViewController4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B1001511B9D3651002B6CF7 /* Build configuration list for PBXNativeTarget "PageViewController4" */;
+			buildPhases = (
+				7B10012B1B9D3651002B6CF7 /* Sources */,
+				7B10012C1B9D3651002B6CF7 /* Frameworks */,
+				7B10012D1B9D3651002B6CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PageViewController4;
+			productName = PageViewController4;
+			productReference = 7B10012F1B9D3651002B6CF7 /* PageViewController4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B1001461B9D3651002B6CF7 /* PageViewController4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B1001541B9D3651002B6CF7 /* Build configuration list for PBXNativeTarget "PageViewController4Tests" */;
+			buildPhases = (
+				7B1001431B9D3651002B6CF7 /* Sources */,
+				7B1001441B9D3651002B6CF7 /* Frameworks */,
+				7B1001451B9D3651002B6CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B1001491B9D3651002B6CF7 /* PBXTargetDependency */,
+			);
+			name = PageViewController4Tests;
+			productName = PageViewController4Tests;
+			productReference = 7B1001471B9D3651002B6CF7 /* PageViewController4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B1001271B9D3651002B6CF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "mitchell hudson";
+				TargetAttributes = {
+					7B10012E1B9D3651002B6CF7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7B1001461B9D3651002B6CF7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7B10012E1B9D3651002B6CF7;
+					};
+				};
+			};
+			buildConfigurationList = 7B10012A1B9D3651002B6CF7 /* Build configuration list for PBXProject "PageViewController4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B1001261B9D3651002B6CF7;
+			productRefGroup = 7B1001301B9D3651002B6CF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B10012E1B9D3651002B6CF7 /* PageViewController4 */,
+				7B1001461B9D3651002B6CF7 /* PageViewController4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B10012D1B9D3651002B6CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B101D471C20947000FC6BCF /* 001_kolodec.jpg in Resources */,
+				7B10016E1B9D3821002B6CF7 /* flower-1.png in Resources */,
+				7B10013D1B9D3651002B6CF7 /* Main.storyboard in Resources */,
+				7B101D491C20947000FC6BCF /* stepwells-india-031.jpg in Resources */,
+				7B10016F1B9D3821002B6CF7 /* flower-2.png in Resources */,
+				7B1001421B9D3651002B6CF7 /* LaunchScreen.xib in Resources */,
+				7B101D461C20947000FC6BCF /* step-well-in-Ahmedabad-India.jpg in Resources */,
+				7B1001711B9D3821002B6CF7 /* flower-4.png in Resources */,
+				7B1001701B9D3821002B6CF7 /* flower-3.png in Resources */,
+				7B10013F1B9D3651002B6CF7 /* Images.xcassets in Resources */,
+				7B101D481C20947000FC6BCF /* chand-baori-12.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B1001451B9D3651002B6CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B10012B1B9D3651002B6CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B10013A1B9D3651002B6CF7 /* ViewController.swift in Sources */,
+				7B1001381B9D3651002B6CF7 /* PageViewController4.xcdatamodeld in Sources */,
+				7B1001351B9D3651002B6CF7 /* AppDelegate.swift in Sources */,
+				7B101D411C1F3E4900FC6BCF /* LastPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B1001431B9D3651002B6CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B10014E1B9D3651002B6CF7 /* PageViewController4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B1001491B9D3651002B6CF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B10012E1B9D3651002B6CF7 /* PageViewController4 */;
+			targetProxy = 7B1001481B9D3651002B6CF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B10013B1B9D3651002B6CF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B10013C1B9D3651002B6CF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B1001401B9D3651002B6CF7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B1001411B9D3651002B6CF7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B10014F1B9D3651002B6CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B1001501B9D3651002B6CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B1001521B9D3651002B6CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PageViewController4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B1001531B9D3651002B6CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PageViewController4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B1001551B9D3651002B6CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PageViewController4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PageViewController4.app/PageViewController4";
+			};
+			name = Debug;
+		};
+		7B1001561B9D3651002B6CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PageViewController4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PageViewController4.app/PageViewController4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B10012A1B9D3651002B6CF7 /* Build configuration list for PBXProject "PageViewController4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B10014F1B9D3651002B6CF7 /* Debug */,
+				7B1001501B9D3651002B6CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B1001511B9D3651002B6CF7 /* Build configuration list for PBXNativeTarget "PageViewController4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B1001521B9D3651002B6CF7 /* Debug */,
+				7B1001531B9D3651002B6CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B1001541B9D3651002B6CF7 /* Build configuration list for PBXNativeTarget "PageViewController4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B1001551B9D3651002B6CF7 /* Debug */,
+				7B1001561B9D3651002B6CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7B1001361B9D3651002B6CF7 /* PageViewController4.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7B1001371B9D3651002B6CF7 /* PageViewController4.xcdatamodel */,
+			);
+			currentVersion = 7B1001371B9D3651002B6CF7 /* PageViewController4.xcdatamodel */;
+			path = PageViewController4.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7B1001271B9D3651002B6CF7 /* Project object */;
+}
